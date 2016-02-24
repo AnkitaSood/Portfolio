@@ -1,18 +1,21 @@
-
 body {
-	padding-top: 64px; /*fixed navbar will overlay your other content, hence need to add padding to body*/
+    padding-top: 64px;
+    /*fixed navbar will overlay your other content, hence need to add padding to body*/
+
     font-family: 'Lato', sans-serif;
     position: relative;
 }
-h1,h2 {
-	font-family: 'Lobster', cursive;
+h1,
+h2 {
+    font-family: 'Lobster', cursive;
 }
-.jumbotron{
+.jumbotron {
     height: 100vh;
 }
 .work {
     /*border: 1px solid #00bcd4;
     border-radius: 5px;*/
+
     color: #F4FAFB;
     margin-bottom: 6%;
 }
@@ -27,8 +30,7 @@ h1,h2 {
 .fill-gradient {
     padding: 2%;
     background-color: 00acc1;
-    background-image:
-    linear-gradient( #b2ebf2, #00bcd4);
+    background-image: linear-gradient( #b2ebf2, #00bcd4);
     margin-bottom: 1%;
 }
 .skills span {
