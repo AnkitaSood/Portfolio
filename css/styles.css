@@ -1,0 +1,51 @@
+
+body {
+	padding-top: 64px; /*fixed navbar will overlay your other content, hence need to add padding to body*/
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+h1,h2 {
+	font-family: 'Lobster', cursive;
+}
+.jumbotron{
+    height: 100vh;
+}
+.work {
+    /*border: 1px solid #00bcd4;
+    border-radius: 5px;*/
+    color: #F4FAFB;
+    margin-bottom: 6%;
+}
+.work h3 {
+    background-color: #4DD0E1;
+    padding: 1rem;
+    margin: 0;
+}
+.work a {
+    color: #ffcdd2;
+}
+.fill-gradient {
+    padding: 2%;
+    background-color: 00acc1;
+    background-image:
+    linear-gradient( #b2ebf2, #00bcd4);
+    margin-bottom: 1%;
+}
+.skills span {
+    color: #00acc1;
+    background-color: #b2ebf2;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 30px;
+    margin: 2px;
+}
+footer {
+    height: 150px;
+    border-top: 1px solid #a0a0a0;
+    background: -webkit-repeating-linear-gradient(35deg, #CBF5F9, #CBF5F9 4px, #b2ebf2 6px, #b2ebf2 6px);
+    background: repeating-linear-gradient(35deg, #CBF5F9, #CBF5F9 4px, #b2ebf2 6px, #b2ebf2 6px);
+    padding: 8rem 0;
+}
+footer a {
+    color: #B92255;
+}
