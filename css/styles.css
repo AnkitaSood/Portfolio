@@ -9,18 +9,31 @@ h1,
 h2 {
     font-family: 'Lobster', cursive;
 }
+.logo {
+    text-shadow: 1px 1px 2px black;
+    margin-left: 20px;
+}
+.logo:hover {
+    transform: scale(1.1);
+    font-size: 0;
+}
+.logo:hover:after {
+    content: attr(data-hover);
+    font-size: 30px;
+}
 .jumbotron {
-    height: 100vh;
+    height: 105vh;
+    padding-top: 0;
+}
+.bg-aboutme {
+    float: left;
 }
 .work {
-    /*border: 1px solid #00bcd4;
-    border-radius: 5px;*/
-
-    color: #F4FAFB;
+    color: #f4fafb;
     margin-bottom: 6%;
 }
 .work h3 {
-    background-color: #4DD0E1;
+    background-color: #4dd0e1;
     padding: 1rem;
     margin: 0;
 }
@@ -29,7 +42,7 @@ h2 {
 }
 .fill-gradient {
     padding: 2%;
-    background-color: 00acc1;
+    background-color: #00acc1;
     background-image: linear-gradient( #b2ebf2, #00bcd4);
     margin-bottom: 1%;
 }
@@ -44,8 +57,8 @@ h2 {
 footer {
     height: 150px;
     border-top: 1px solid #a0a0a0;
-    background: -webkit-repeating-linear-gradient(35deg, #CBF5F9, #CBF5F9 4px, #b2ebf2 6px, #b2ebf2 6px);
-    background: repeating-linear-gradient(35deg, #CBF5F9, #CBF5F9 4px, #b2ebf2 6px, #b2ebf2 6px);
+    background: -webkit-repeating-linear-gradient(35deg, #cbf5f9, #cbf5f9 4px, #b2ebf2 6px, #b2ebf2 6px);
+    background: repeating-linear-gradient(35deg, #cbf5f9, #cbf5f9 4px, #b2ebf2 6px, #b2ebf2 6px);
     padding: 8rem 0;
 }
 footer a {
